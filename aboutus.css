@@ -1,0 +1,47 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light
+{
+    background-color: blueviolet;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body, html
+{
+    min-height: 100%;
+}
+
+body
+{
+    background-image: url(pain/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text
+{
+    max-width: 960px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    margin-top:200px;
+    margin-left: 50px;
+    margin-right: auto;
+    text-align: left;
+    font-size: 30px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pic
+{
+    width: 400px;
+    height: 300px;
+    border: 2px solid pink;
+    position: relative;
+    left: 1400px;
+    bottom: 150px;
+}
+
