@@ -4,3 +4,104 @@
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.head
+{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+
+.body
+{
+    color: white;
+    text-align: left;
+    background-color: rgb(119, 18, 119);
+}
+
+img
+{
+    height: 500px;
+}
+
+.container
+{
+    display: flex;
+}
+
+.card
+{
+    height: 500px;
+    width: 400px;
+    margin: 15px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro
+{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 240px;
+    background: rgba(27, 27, 27, 0.5);
+    color: white;
+    transition: .5s;
+}
+
+h1{
+    margin:10px;
+    font-size: 40ox;;
+}
+
+p
+{
+    font-size: 40px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover
+{
+    cursor: pointer;
+}
+
+.card:hover .intro
+{
+    height: 220px;
+    bottom: 240px;
+    background: black;
+}
+
+.card:hover p
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img
+{
+    transform: scale(1.1);
+}
+
+.card:hover h1
+{
+    opacity: 0;
+    visibility: hidden;
+}
+
+body, html
+{
+    min-height: 100%;
+}
+
+body
+{
+    background-image: url(pain/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
